@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "name": "Prime Smash Burger",
+    "category": "burgers",
+    "description": "Double smash patty, cheddar cheese, caramelized onions, prime sauce, brioche bun.",
+    "price": 750,
+    "image": "images/item1.jpg",
+    "rating": 4.8,
+    "available": true,
+    "isPizza": false,
+    "badge": "Bestseller"
+  },
+  {
+    "id": 2,
+    "name": "Crispy Chicken Burger",
+    "category": "burgers",
+    "description": "Crispy fried chicken thigh, coleslaw, pickles, spicy mayo.",
+    "price": 650,
+    "image": "images/item2.jpg",
+    "rating": 4.6,
+    "available": true,
+    "isPizza": false,
+    "badge": ""
+  },
+  {
+    "id": 3,
+    "name": "BBQ Chicken Pizza",
+    "category": "pizza",
+    "description": "Smoky BBQ base, grilled chicken, red onions, mozzarella, fresh cilantro.",
+    "image": "images/item3.jpg",
+    "rating": 4.9,
+    "available": true,
+    "isPizza": true,
+    "badge": "Popular",
+    "sizes": [
+      { "label": "Small", "price": 600 },
+      { "label": "Medium", "price": 850 },
+      { "label": "Large", "price": 1100 }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Loaded Beef Pizza",
+    "category": "pizza",
+    "description": "Spiced beef mince, bell peppers, olives, double mozzarella, tomato base.",
+    "image": "images/item4.jpg",
+    "rating": 4.7,
+    "available": true,
+    "isPizza": true,
+    "badge": "",
+    "sizes": [
+      { "label": "Small", "price": 650 },
+      { "label": "Medium", "price": 900 },
+      { "label": "Large", "price": 1200 }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Zinger Wrap",
+    "category": "wraps",
+    "description": "Crispy zinger fillet, lettuce, cheese slice, garlic sauce, flour tortilla.",
+    "price": 500,
+    "image": "images/item5.jpg",
+    "rating": 4.5,
+    "available": true,
+    "isPizza": false,
+    "badge": ""
+  },
+  {
+    "id": 6,
+    "name": "Beef Seekh Wrap",
+    "category": "wraps",
+    "description": "Juicy seekh kebab, raita, onion rings, green chutney, paratha wrap.",
+    "price": 550,
+    "image": "images/item6.jpg",
+    "rating": 4.4,
+    "available": false,
+    "isPizza": false,
+    "badge": ""
+  },
+  {
+    "id": 7,
+    "name": "Loaded Fries",
+    "category": "sides",
+    "description": "Crispy fries topped with cheese sauce, jalapeños, and crispy chicken bits.",
+    "price": 400,
+    "image": "images/item7.jpg",
+    "rating": 4.7,
+    "available": true,
+    "isPizza": false,
+    "badge": "Spicy"
+  },
+  {
+    "id": 8,
+    "name": "Mozzarella Sticks",
+    "category": "sides",
+    "description": "Golden fried mozzarella sticks served with marinara dipping sauce.",
+    "price": 350,
+    "image": "images/item8.jpg",
+    "rating": 4.3,
+    "available": true,
+    "isPizza": false,
+    "badge": ""
+  },
+  {
+    "id": 9,
+    "name": "Oreo Shake",
+    "category": "drinks",
+    "description": "Thick Oreo milkshake with whipped cream and crushed Oreo topping.",
+    "price": 350,
+    "image": "images/item9.jpg",
+    "rating": 4.8,
+    "available": true,
+    "isPizza": false,
+    "badge": "Fan Fav"
+  },
+  {
+    "id": 10,
+    "name": "Fresh Lemonade",
+    "category": "drinks",
+    "description": "Fresh squeezed lemon, mint, chilled sparkling water, a pinch of salt.",
+    "price": 200,
+    "image": "images/item10.jpg",
+    "rating": 4.2,
+    "available": true,
+    "isPizza": false,
+    "badge": ""
+  }
+]

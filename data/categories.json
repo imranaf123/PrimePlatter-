@@ -1,0 +1,8 @@
+[
+  { "id": "all", "label": "All", "icon": "🍽️" },
+  { "id": "burgers", "label": "Burgers", "icon": "🍔" },
+  { "id": "pizza", "label": "Pizza", "icon": "🍕" },
+  { "id": "wraps", "label": "Wraps", "icon": "🌯" },
+  { "id": "sides", "label": "Sides", "icon": "🍟" },
+  { "id": "drinks", "label": "Drinks", "icon": "🥤" }
+]

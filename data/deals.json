@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "name": "Prime Combo Deal",
+    "image": "images/deal1.jpg",
+    "items": ["Prime Smash Burger", "Loaded Fries", "Oreo Shake"],
+    "originalPrice": 1500,
+    "dealPrice": 1099,
+    "available": true
+  },
+  {
+    "id": 2,
+    "name": "Pizza Night Deal",
+    "image": "images/deal1.jpg",
+    "items": ["Large BBQ Chicken Pizza", "Mozzarella Sticks", "2x Fresh Lemonade"],
+    "originalPrice": 1850,
+    "dealPrice": 1399,
+    "available": true
+  },
+  {
+    "id": 3,
+    "name": "Family Feast",
+    "image": "images/deal1.jpg",
+    "items": ["2x Crispy Chicken Burger", "Large Loaded Beef Pizza", "4x Fresh Lemonade"],
+    "originalPrice": 3200,
+    "dealPrice": 2499,
+    "available": true
+  },
+  {
+    "id": 4,
+    "name": "Wrap & Sip",
+    "image": "images/deal1.jpg",
+    "items": ["Zinger Wrap", "Fresh Lemonade"],
+    "originalPrice": 700,
+    "dealPrice": 549,
+    "available": true
+  },
+  {
+    "id": 5,
+    "name": "Snack Attack",
+    "image": "images/deal1.jpg",
+    "items": ["Loaded Fries", "Mozzarella Sticks", "Oreo Shake"],
+    "originalPrice": 1100,
+    "dealPrice": 849,
+    "available": true
+  },
+  {
+    "id": 6,
+    "name": "Double Burger Deal",
+    "image": "images/deal1.jpg",
+    "items": ["Prime Smash Burger", "Crispy Chicken Burger", "2x Fresh Lemonade"],
+    "originalPrice": 1600,
+    "dealPrice": 1199,
+    "available": false
+  },
+  {
+    "id": 7,
+    "name": "Solo Saver",
+    "image": "images/deal1.jpg",
+    "items": ["Crispy Chicken Burger", "Loaded Fries", "Fresh Lemonade"],
+    "originalPrice": 1050,
+    "dealPrice": 799,
+    "available": true
+  }
+]

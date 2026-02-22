@@ -1,0 +1,57 @@
+{
+  "restaurantName": "PrimePlatter",
+  "developerName": "Imran Af",
+  "logo": "images/logo.png",
+  "favicon": "images/icon-192.png",
+  "currency": "PKR",
+  "currencySymbol": "Rs.",
+  "whatsappNumber": "923133801788",
+  "deliveryFee": 100,
+  "heroTaglines": [
+    "Taste the Premium Difference",
+    "Fresh. Hot. Delivered Fast.",
+    "Crafted for Food Lovers",
+    "Order in Seconds via WhatsApp"
+  ],
+  "about": {
+    "heading": "About PrimePlatter",
+    "description": "PrimePlatter is Karachi's premier destination for gourmet fast food. We craft every dish with the finest ingredients, bold flavors, and a passion for quality. From sizzling burgers to stone-baked pizzas, every bite is an experience.",
+    "established": "2019",
+    "tagline": "Where Quality Meets Flavor"
+  },
+  "contact": {
+    "address": "Shop 12, Block B, Gulshan-e-Iqbal, Karachi, Pakistan",
+    "phone": "+92-313-3801788",
+    "whatsapp": "+92-313-3801788",
+    "email": "order@primeplatter.pk",
+    "mapLink": "https://maps.google.com/?q=Gulshan-e-Iqbal+Karachi",
+    "openingHours": {
+      "weekdays": "12:00 PM – 12:00 AM",
+      "weekends": "11:00 AM – 1:00 AM"
+    }
+  },
+  "social": {
+    "instagram": "https://instagram.com/primeplatter",
+    "facebook": "https://facebook.com/primeplatter",
+    "tiktok": ""
+  },
+  "theme": {
+    "accentColor": "#C41E3A",
+    "accentGradient": "linear-gradient(135deg, #C41E3A, #8B0000)",
+    "darkBg": "#0f0f0f",
+    "darkSurface": "#1a1a1a",
+    "darkCard": "#222222",
+    "lightBg": "#f5f5f5",
+    "lightSurface": "#ffffff",
+    "lightCard": "#f0f0f0",
+    "textDark": "#ffffff",
+    "textLight": "#111111"
+  },
+  "fonts": {
+    "heading": "'Poppins', sans-serif",
+    "body": "'Inter', sans-serif"
+  },
+  "appName": "PrimePlatter",
+  "appShortName": "PrimePlatter",
+  "appDescription": "Order premium food via WhatsApp. Fast, easy, delicious."
+}
