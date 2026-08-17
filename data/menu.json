@@ -16,7 +16,7 @@
     "name": "Crispy Chicken Burger",
     "category": "burgers",
     "description": "Crispy fried chicken thigh, coleslaw, pickles, spicy mayo.",
-    "price": 650,
+    "price": 450,
     "image": "images/item2.jpg",
     "rating": 4.6,
     "available": true,
