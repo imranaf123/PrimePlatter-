@@ -9,6 +9,7 @@
 let settings = {};
 let menuItems = [];
 let deals = [];
+let comingSoonItems = [];
 let categories = [];
 let cart = [];
 let activeCategory = 'all';
@@ -93,6 +94,16 @@ async function loadDeals() {
     deals = await response.json();
   } catch (error) {
     console.error('Failed to load deals:', error);
+  }
+}
+
+async function loadComingSoon() {
+  try {
+    const response = await fetch('./data/coming-soon.json');
+    comingSoonItems = await response.json();
+  } catch (error) {
+    console.error('Failed to load coming soon items:', error);
+    comingSoonItems = [];
   }
 }
 
@@ -594,6 +605,49 @@ function orderDeal(dealId) {
   openCart();
 }
 
+function renderComingSoon() {
+  const section = document.getElementById('coming-soon');
+  const container = document.getElementById('coming-soon-grid');
+  
+  // Hide the entire section when there are no coming soon items
+  if (!comingSoonItems || comingSoonItems.length === 0) {
+    section.style.display = 'none';
+    container.innerHTML = '';
+    return;
+  }
+  
+  section.style.display = 'block';
+  
+  container.innerHTML = comingSoonItems.map(item => {
+    const priceDisplay = typeof item.price === 'number' && item.price > 0
+      ? `<span class="coming-soon-price">${formatPrice(item.price)}</span>`
+      : '';
+    
+    return `
+      <div class="coming-soon-card">
+        <div class="coming-soon-card-image">
+          <img src="${item.image}" alt="${item.name}" loading="lazy" width="280" height="180">
+          <span class="coming-soon-badge">Coming Soon</span>
+        </div>
+        <div class="coming-soon-card-body">
+          <h3 class="coming-soon-card-title">${item.name}</h3>
+          <p class="coming-soon-card-desc">${item.description}</p>
+          <div class="coming-soon-card-footer">
+            ${priceDisplay}
+            <span class="coming-soon-date">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+              </svg>
+              ${item.expectedDate || 'Stay Tuned'}
+            </span>
+          </div>
+        </div>
+      </div>
+    `;
+  }).join('');
+}
+
 function renderAbout() {
   document.getElementById('about-heading').textContent = settings.about.heading;
   document.getElementById('about-description').textContent = settings.about.description;
@@ -949,6 +1003,7 @@ async function init() {
   await loadCategories();
   await loadMenu();
   await loadDeals();
+  await loadComingSoon();
   
   restoreTheme();
   restoreCart();
@@ -958,6 +1013,7 @@ async function init() {
   renderCategories();
   renderMenu();
   renderDeals();
+  renderComingSoon();
   renderAbout();
   renderContact();
   renderFooter();

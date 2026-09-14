@@ -1,4 +1,4 @@
-const CACHE_NAME = 'primeplatter-v1';
+const CACHE_NAME = 'primeplatter-v2';
 const STATIC_ASSETS = [
   './',
   './index.html',
@@ -8,7 +8,8 @@ const STATIC_ASSETS = [
   './data/settings.json',
   './data/menu.json',
   './data/deals.json',
-  './data/categories.json'
+  './data/categories.json',
+  './data/coming-soon.json'
 ];
 
 // Install: cache static assets

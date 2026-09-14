@@ -1,0 +1,25 @@
+[
+  {
+    "id": 1,
+    "name": "Truffle Mushroom Burger",
+    "description": "Juicy beef patty, sautéed mushrooms, truffle mayo, swiss cheese, brioche bun.",
+    "image": "images/item1.jpg",
+    "expectedDate": "November 2026",
+    "price": 950
+  },
+  {
+    "id": 2,
+    "name": "Peri Peri Chicken Pizza",
+    "description": "Peri peri sauce, grilled chicken, red onions, green chilies, double mozzarella.",
+    "image": "images/item3.jpg",
+    "expectedDate": "November 2026"
+  },
+  {
+    "id": 3,
+    "name": "Nutella Lava Shake",
+    "description": "Thick chocolate milkshake with molten Nutella swirl and hazelnut crunch topping.",
+    "image": "images/item9.jpg",
+    "expectedDate": "December 2026",
+    "price": 450
+  }
+]
